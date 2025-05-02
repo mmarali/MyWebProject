@@ -2,6 +2,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.FileProviders;
 using Sylabus.Models;
 using System.IO;
+using Microsoft.AspNetCore.StaticFiles;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -29,13 +30,17 @@ app.UseAuthorization();
 
 app.UseStaticFiles(); 
 
+var provider = new FileExtensionContentTypeProvider();
+provider.Mappings[".js"] = "application/javascript";
+provider.Mappings[".mjs"] = "application/javascript";
+
 app.UseStaticFiles(new StaticFileOptions
 {
     FileProvider = new PhysicalFileProvider(
         Path.Combine(builder.Environment.ContentRootPath, "frontend", "dist")),
-    RequestPath = "/frontend/dist"
+    RequestPath = "/frontend/dist",
+    ContentTypeProvider = provider
 });
-
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");
