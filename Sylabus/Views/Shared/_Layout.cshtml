@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="~/frontend/dist/css/app.css" />
 </head>
 <body>
-<div class="container">
+<div class="container"> 
     <main role="main" class="pb-3">
         @RenderBody()
     </main>
@@ -18,8 +18,10 @@
         © 2025 - Sylabus - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
     </div>
 </footer>
+
+@await RenderSectionAsync("Scripts", required: false)
 <script src="~/frontend/dist/js/chunk-vendors.js"></script>
 <script src="~/frontend/dist/js/app.js"></script>
-@await RenderSectionAsync("Scripts", required: false)
+
 </body>
 </html>
