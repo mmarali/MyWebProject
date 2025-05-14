@@ -30,4 +30,18 @@ public class SylabusController : Controller
         ViewBag.UserEmail = HttpContext.Session.GetString("UserEmail");
         return View();
     }
+    
+    [HttpGet("/dodaj-sylabus")]
+    public IActionResult AddSylabus()
+    {
+        var userId = HttpContext.Session.GetInt32("UserId");
+
+        if (userId == null)
+        {
+            return RedirectToAction("Index", "Home"); // lub zwróć 401
+        }
+
+        ViewBag.UserEmail = HttpContext.Session.GetString("UserEmail");
+        return View();
+    }
 }
