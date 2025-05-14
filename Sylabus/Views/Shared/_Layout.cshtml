@@ -8,17 +8,14 @@
     <link rel="stylesheet" href="~/frontend/dist/css/chunk-vendors.css" />
 </head>
 <body>
-<div class="container"> 
+
+<div class="container">
     <main role="main" class="pb-3">
         @RenderBody()
     </main>
 </div>
 
-<footer class="border-top footer text-muted">
-    <div class="container">
-        © 2025 - Sylabus - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
-    </div>
-</footer>
+@Html.Partial("_Footer")
 
 @await RenderSectionAsync("Scripts", required: false)
 <script src="~/frontend/dist/js/chunk-vendors.js"></script>
