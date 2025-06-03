@@ -2,6 +2,7 @@
 frontend/node_modules/
 frontend/dist/
 bin/*
+obj/*
 
 # NPM lockfile (jeśli chcesz ignorować)
 frontend/package-lock.json
