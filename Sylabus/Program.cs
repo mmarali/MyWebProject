@@ -5,9 +5,9 @@ using System.IO;
 using Microsoft.AspNetCore.StaticFiles;
 
 var builder = WebApplication.CreateBuilder(args);
-
+  
 builder.Services.AddDbContext<AppDbContext>(options =>
-    options.UseMySql(
+    options.UseMySql( 
         builder.Configuration.GetConnectionString("DefaultConnection"),
         new MySqlServerVersion(new Version(8, 0, 23)) // wersja MySQL
     ));
