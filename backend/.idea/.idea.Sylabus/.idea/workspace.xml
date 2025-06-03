@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0df65161-8c2e-4f2d-b03d-f8d13ce6ccc9" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/.idea.Sylabus/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/.idea.Sylabus/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/.idea.Sylabus/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/.idea.Sylabus/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/.idea.Sylabus/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/.idea.Sylabus/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controllers/AcademiesController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controllers/HomeController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controllers/SylabusController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Migrations/20250415104556_InitialCreate.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Migrations/20250415104556_InitialCreate.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Migrations/20250502125612_UsersCreate.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Migrations/20250502125612_UsersCreate.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Migrations/20250514193108_CreateAcademiesTable.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Migrations/20250514193108_CreateAcademiesTable.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Migrations/AppDbContextModelSnapshot.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Models/Academy.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Models/AppDbContext.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Models/AppDbContextFactory.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Models/ErrorViewModel.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Models/Requests/LoginRequest.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Models/Requests/RegisterRequest.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Models/User.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Program.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Properties/launchSettings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sylabus.sln" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Views/Academies/Academies.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Views/Home/Index.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Views/Home/Privacy.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Views/Shared/Error.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Views/Shared/_Footer.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Views/Shared/_Footer.cshtml.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Views/Shared/_Layout.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Views/Shared/_Layout.cshtml.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Views/Shared/_ValidationScriptsPartial.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Views/Sylabus/AddSylabus.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Views/Sylabus/Sylabus.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Views/_ViewImports.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Views/_ViewStart.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appsettings.Development.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appsettings.json" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "mmarali"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/mmarali/MyWebProject.git",
+    "accountId": "6ea295d3-ed5a-4892-83f0-e14c9108708a"
+  }
+}]]></component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="Toolset" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 7
+}]]></component>
+  <component name="ProjectId" id="2y0HEXTOKwQLBxezffahEqemgzv" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0df65161-8c2e-4f2d-b03d-f8d13ce6ccc9" name="Changes" comment="" />
+      <created>1748964459975</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1748964459975</updated>
+      <workItem from="1748964461086" duration="108000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+</project>
