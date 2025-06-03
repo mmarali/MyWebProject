@@ -1,0 +1,38 @@
+# Node.js (frontend)
+frontend/node_modules/
+frontend/dist/
+
+# NPM lockfile (jeśli chcesz ignorować)
+frontend/package-lock.json
+
+# .NET (backend)
+backend/bin/
+backend/obj/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Rider / JetBrains IDE
+.idea/
+*.DotSettings.user
+
+# VSCode
+.vscode/
+
+# Systemowe
+.DS_Store
+Thumbs.db
+
+# Logi
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Folder z zależnościami, jeśli występuje w głównym katalogu
+node_modules/
+
+# Inne buildy
+dist/
+
+*.DotSettings.user
